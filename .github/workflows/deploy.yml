@@ -44,4 +44,4 @@ jobs:
             git clone https://github.com/NickITGuy/thefifthfleet.com.git
             npm install
             npm run build
-            npm start
+            npm start & npx wait-on http://localhost:3000
