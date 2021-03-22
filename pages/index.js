@@ -3,6 +3,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <div className="head">
+      <Head>
+        <title>The Fifth Fleet</title>
+      </Head>
     <header class="v-header container">
     <div class="fullscreen-video-wrap">
       <video src="/video.mkv" autoplay muted loop></video>
@@ -17,5 +21,6 @@ export default function Home() {
       <a href="https://discord.gg/xWtNFVR" class="btn">Discord</a>
     </div>
   </header>
+  </div>
     )
 }
