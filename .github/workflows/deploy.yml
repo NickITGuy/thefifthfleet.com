@@ -41,5 +41,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /home/thefifthfleet
-            git pull https://github.com/NickITGuy/thefifthfleet.com.git
+            git clone https://github.com/NickITGuy/thefifthfleet.com.git
             npm start
