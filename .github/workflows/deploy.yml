@@ -43,5 +43,5 @@ jobs:
             cd /home/thefifthfleet.com/
             git clone https://github.com/NickITGuy/thefifthfleet.com.git
             npm install
-            npm build
+            npm run build
             npm start
