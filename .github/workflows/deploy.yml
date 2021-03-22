@@ -40,6 +40,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /home/thefifthfleet
+            cd /home/thefifthfleet.com/
             git clone https://github.com/NickITGuy/thefifthfleet.com.git
             npm start
