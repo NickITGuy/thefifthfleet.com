@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       </Head>
     <header class="v-header container">
     <div class="fullscreen-video-wrap">
-      <video src="/video.mkv" autoplay muted loop></video>
+      <Image src="/bkg.jpg" alt="The Fifth Fleet" layout="fill" />
     </div>
     <div class="header-overlay"></div>
     <div class="header-content">
